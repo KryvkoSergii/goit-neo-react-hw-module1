@@ -1,0 +1,24 @@
+.is_online {
+    color: green;
+}
+
+.is_offline {
+    color: red;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card img{
+    padding: 15px;
+}
+

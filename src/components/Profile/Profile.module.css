@@ -1,0 +1,54 @@
+.profile {
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.profile img {
+    border-radius: 50%;
+    background: grey;
+    width: 49%;
+    margin: 50px;
+}
+
+.name {
+    color: black;
+    font-weight: 900;
+}
+
+.desc {
+    color: grey;
+    font-weight: 400;
+}
+
+.stats {
+    width: auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-content:space-between;
+    background: gainsboro;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.profile li {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    border-top: 3px solid grey;
+}
+
+.profile li:nth-child(even) {
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.profile span:nth-child(even) {
+    font-weight: 900;
+}
+
+.profile li span {
+    margin: 10px;
+}
